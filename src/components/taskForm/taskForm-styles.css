@@ -1,0 +1,38 @@
+.taskFormContainer {
+    margin: auto;
+    width: 50%;
+    display: flex;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    background-color: white;
+}
+
+#addTaskInput {
+    width: 75%;
+    padding-left: 20px;
+    border: 1px solid #4f29f0;
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: none;
+}
+
+button {
+    width: 25%;
+    height: 40px;
+    background-color:#4f29f0;
+    color: white;
+    box-shadow: none;
+    border: 1px solid #4f29f0;
+    border-radius: 0px 5px 5px 0px;
+}
+
+ul {
+    list-style: none;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px 10px;
+    background-color: #4f29f0;
+}
+
