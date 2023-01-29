@@ -5,7 +5,7 @@ import Clock from 'react-live-clock';
 import { TaskForm } from './components/taskForm/taskForm';
 
 
-const App = () => {
+function App () {
   return (
     <>
       <Toaster

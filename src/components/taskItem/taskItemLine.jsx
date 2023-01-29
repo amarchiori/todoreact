@@ -7,7 +7,7 @@ import './taskItemLine-styles.scss'
 import { RiDeleteBin2Line } from 'react-icons/ri';
 
 
-export const TaskItemLine = ({ taskInput, id }) => {
+export function TaskItemLine ({ taskInput, id }) {
     const { deleteTaskFromList } = useContext(TaskContext);
 
     return(

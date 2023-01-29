@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 import './taskForm-styles.css'
 import { toast } from 'react-hot-toast';
 
-export const TaskForm = () => {
+export function TaskForm () {
     const [taskInput, setTaskInput] = useState('');
     const { addTaskToList} = useContext(TaskContext);
 

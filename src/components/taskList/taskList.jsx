@@ -6,7 +6,7 @@ import './taskList-styles.css'
 
 
 
-export const TaskList = () => {
+export function TaskList () {
   const { taskItems } = useContext(TaskContext)
 
   return (

@@ -15,7 +15,7 @@ const initialState = [
     },
 ]
 
-export const TaskProvider = ({ children }) => {
+export function TaskProvider ({ children }) {
     const [taskItems, setTaskItems] = useState(initialState);
     
     const deleteTaskFromList = (id) => 
