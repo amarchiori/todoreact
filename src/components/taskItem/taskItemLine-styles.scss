@@ -19,7 +19,7 @@
         box-shadow: 0 10px 30px rgba(#414856, 0.05);
         padding: 20px 20px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         label {
           color: var(--text);
@@ -28,6 +28,7 @@
           display: flex;
           align-items: center;
           width: fit-content;
+          max-width: 75%;
           transition: color 0.3s ease;
           &::before,
           &::after {
@@ -37,8 +38,8 @@
           &::before {
             height: 2px;
             width: 8px;
-            left: -27px;
-            background: var(--check);
+            left: -300px;
+            background: var(--background);
             border-radius: 2px;
             transition: background 0.3s ease;
           }
@@ -46,7 +47,7 @@
             height: 4px;
             width: 4px;
             top: 8px;
-            left: -25px;
+            left: 50%;
             border-radius: 50%;
           }
         }
@@ -112,7 +113,7 @@
       @keyframes slice {
         60% {
           width: 100%;
-          left: 4px;
+          left: 6px;
         }
         100% {
           width: 100%;
